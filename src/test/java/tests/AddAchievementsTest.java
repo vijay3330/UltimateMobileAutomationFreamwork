@@ -8,9 +8,11 @@ import testCasePages.AchievementsPage;
 import testCasePages.HomePage;
 import testCasePages.LoginPage;
 import testCasePages.ProfileSelectionPage;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class AddAchievementsTest extends BaseClass {
-
+    private static final Logger log = LogManager.getLogger(AddAchievementsTest.class);
     LoginPage loginpage;
     ProfileSelectionPage profileSelectionPage;
     HomePage homePage;
@@ -25,62 +27,62 @@ public class AddAchievementsTest extends BaseClass {
         loginpage.enterPassword("1111");
         Thread.sleep(5000);
         loginpage.clickLogin();
-        System.out.println("Login.....");
+        log.info("Login.....");
         Thread.sleep(5000);
 
         profileSelectionPage= new ProfileSelectionPage(driver);
         Thread.sleep(5000);
         profileSelectionPage.clickOnParentProfile();
-        System.out.println("select profile..");
+        log.info("select profile..");
         Thread.sleep(5000);
 
         homePage=new HomePage(driver);
         Thread.sleep(5000);
         homePage.clickOnAchievement();
-        System.out.println("Click On Achievement");
+        log.info("Click On Achievement");
         Thread.sleep(5000);
         
         achievementsPage=new AchievementsPage(driver);
         Thread.sleep(5000);
         achievementsPage.clickOnAddAchievementsButton();
-        System.out.println("Click On Add Achievement");
+        log.info("Click On Add Achievement");
         Thread.sleep(5000);
         achievementsPage.clickOnSportsCategory();
-        System.out.println("Click On Sports Category");
+        log.info("Click On Sports Category");
         Thread.sleep(5000);
         WebElement ac = achievementsPage.achievementDropDown;
         Select selectAc = new Select(ac);
         Thread.sleep(5000);
         selectAc.selectByVisibleText("Tennis");
         Thread.sleep(5000);
-        System.out.println("Select Tennis");
+        log.info("Select Tennis");
         WebElement pl = achievementsPage.proficiencyLevelDropDown;
         Select selectPl = new Select(pl);
         Thread.sleep(5000);
         selectPl.selectByVisibleText("Level Completion");
         Thread.sleep(5000);
-        System.out.println("Select Level Completion");
+        log.info("Select Level Completion");
         achievementsPage.enterDescription("First Prize");
         Thread.sleep(5000);
-        System.out.println("Enter Description");
+        log.info("Enter Description");
         achievementsPage.enterDate("2024-08-31");
         Thread.sleep(5000);
-        System.out.println("Enter date 2024-08-31 ");
+        log.info("Enter date 2024-08-31 ");
         achievementsPage.addMemories1.click();
         Thread.sleep(5000);
-        System.out.println("Click on addMemories1");
+        log.info("Click on addMemories1");
         achievementsPage.getPermission();
         Thread.sleep(5000);
-        System.out.println("Click on permission");
+        log.info("Click on permission");
 //        achievementsPage.clickOnChooseFromGallery();
 //        Thread.sleep(5000);
-//        System.out.println("Click on choose from gallery");
+//        log.info("Click on choose from gallery");
 //        achievementsPage.clickOnSelectMedia();
 //        Thread.sleep(5000);
-//        System.out.println("Click on Select Media");
+//        log.info("Click on Select Media");
         achievementsPage.uploadMemories1("C:\\Users\\Admin\\Desktop\\Pristine\\image\\success-quote-on-progress.png");
         Thread.sleep(5000);
-        System.out.println("Click on addMemories1");
+        log.info("Click on addMemories1");
 
     }
 
