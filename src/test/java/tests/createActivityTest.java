@@ -24,7 +24,7 @@ public class createActivityTest extends BaseClass {
 
     @Test(dataProvider = "activityData")
     public void testCreateActivity(String username, String password, String activityTitle, String description, String materialRequired, String expectedMsg) throws InterruptedException {
-    try {
+
         loginpage = new LoginPage(driver);
         loginpage.enterUsername(username);
         loginpage.enterPassword(password);
@@ -76,13 +76,5 @@ public class createActivityTest extends BaseClass {
         log.info("Click on logout icon from home.....");
         homePage.clickOnLogoutButton();
         log.info("Click on logout button from home.....");
-
-    } catch (Exception e) {
-        // Capture screenshot on failure
-        String screenshotName = "FailedTest_testCreateActivity" + System.currentTimeMillis();
-        AppiumUtils.captureScreenshot(driver, screenshotName);
-        e.printStackTrace(); // Print the exception
-        Assert.fail("Test failed due to an exception");
-    }
     }
 }

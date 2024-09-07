@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class BaseClass {
     public static final Logger log = LogManager.getLogger(BaseClass.class);
-   public AndroidDriver driver;
+   public static AndroidDriver driver;
 
     @BeforeTest
     public void setup() throws InterruptedException, MalformedURLException {

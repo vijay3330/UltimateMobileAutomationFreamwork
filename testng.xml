@@ -3,6 +3,7 @@
 <suite name="Practice Suite">
     <listeners>
         <listener class-name="utils.Reporting"/>
+        <listener class-name="utils.MyListener"/>
     </listeners>
     <!--<test name="Test Basics 1">
         <classes>
