@@ -1,14 +1,18 @@
 package tests;
 
 import baseClass.BaseClass;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import testCasePages.*;
 import utils.AppiumUtils;
+import utils.ReportManager;
 
 public class createActivityTest extends BaseClass {
 
+    private static final Logger log = LoggerFactory.getLogger(createActivityTest.class);
     LoginPage loginpage;
     ProfileSelectionPage profileSelectionPage;
     HomePage homePage;
@@ -22,65 +26,77 @@ public class createActivityTest extends BaseClass {
 
     @Test(dataProvider = "activityData")
     public void testCreateActivity(String username, String password, String activityTitle, String description, String materialRequired, String expectedMsg) throws InterruptedException {
-    try {
+        ReportManager.startTest("createActivityTest testCreateActivity");
+        int currentRow = 0; // Index to keep track of the current row in the Excel sheet
+        try {
         loginpage = new LoginPage(driver);
         loginpage.enterUsername(username);
         loginpage.enterPassword(password);
         loginpage.clickLogin();
-        System.out.println("Login.....");
+        log.info("Login.....");
 
         profileSelectionPage = new ProfileSelectionPage(driver);
         profileSelectionPage.clickOnParentProfile();
-        System.out.println("Select profile..");
+        log.info("Select profile..");
 
         homePage = new HomePage(driver);
         homePage.clickOnAssignment();
-        System.out.println("Click on assignment");
+        log.info("Click on assignment");
 
         mySpacePage = new MySpacePage(driver);
         mySpacePage.clickOnCreateOwn();
-        System.out.println("Click on CreateOwn");
+        log.info("Click on CreateOwn");
 
         createOwnPage = new CreateOwnPage(driver);
         createOwnPage.clickOnCreateActivity();
-        System.out.println("Click on CreateActivity");
+        log.info("Click on CreateActivity");
         createOwnPage.enterActivityTitle(activityTitle);
-        System.out.println("Title entered");
+        log.info("Title entered : "+activityTitle);
         createOwnPage.enterDescription(description);
-        System.out.println("Description entered");
+        log.info("Description entered : "+description);
         createOwnPage.enterMaterialRequired(materialRequired);
-        System.out.println("Material entered");
+        log.info("materialRequired : "+materialRequired);
         createOwnPage.clickOnPreview();
-        System.out.println("Click On Preview");
+        log.info("Click On Preview");
         createOwnPage.clickOnSubmit();
-        System.out.println("Click On Submit");
+        log.info("Click On Submit");
 
         String actualmsg = createOwnPage.getCreatedMessage();
-        System.out.println("Actual Message : " + actualmsg);
-        System.out.println("Expected Message : " + expectedMsg);
+
+        log.info("Actual Message : " + actualmsg);
+        log.info("Expected Message : " + expectedMsg);
         Assert.assertEquals(actualmsg, expectedMsg);
-        System.out.println("Testcase Pass.....");
+        log.info("Testcase Pass.....");
 
         createOwnPage.clickOnClose();
-        System.out.println("Click on Close.....");
+        log.info("Click on Close.....");
         createOwnPage.clickOnBack();
-        System.out.println("Click on Back from Create Own Page.....");
+        log.info("Click on Back from Create Own Page.....");
         mySpacePage.clickOnBack();
-        System.out.println("Click on Back from Myspace.....");
+        log.info("Click on Back from Myspace.....");
 
         homePage.clickOnMenuButton();
-        System.out.println("Click on Menu button from home.....");
+        log.info("Click on Menu button from home.....");
         homePage.clickOnLogoutIcon();
-        System.out.println("Click on logout icon from home.....");
+        log.info("Click on logout icon from home.....");
         homePage.clickOnLogoutButton();
-        System.out.println("Click on logout button from home.....");
+        log.info("Click on logout button from home.....");
 
-    } catch (Exception e) {
+        AppiumUtils.writeResultToExcel("CreateOwn Test Data", currentRow + 1, 6, "PASS");
+
+        } catch (Exception e) {
         // Capture screenshot on failure
         String screenshotName = "FailedTest_testCreateActivity" + System.currentTimeMillis();
         AppiumUtils.captureScreenshot(driver, screenshotName);
+
+        // Write FAIL to Excel
+        AppiumUtils.writeResultToExcel("CreateOwn Test Data", currentRow + 1, 6, "FAIL");
+
         e.printStackTrace(); // Print the exception
         Assert.fail("Test failed due to an exception");
-    }
+    }finally {
+            currentRow++; // Move to the next row for the next test iteration
+            ReportManager.flushReport();
+        }
     }
 }
