@@ -5,13 +5,15 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class BaseClass {
-
-   public AndroidDriver driver;
+    public static final Logger log = LogManager.getLogger(BaseClass.class);
+   public static AndroidDriver driver;
 
     @BeforeTest
     public void setup() throws InterruptedException, MalformedURLException {
@@ -23,7 +25,7 @@ public class BaseClass {
 //        dc.setCapability("appActivity", "com.ultimate.MainActivity");
 
         DesiredCapabilities dc= new DesiredCapabilities();
-        dc.setCapability("deviceName", "OnePlus CPH2401");
+        dc.setCapability("deviceName", "Samsung SM-A346E");
         dc.setCapability("platformName", "Android");
         dc.setCapability("automationName", "UiAutomator2");
         dc.setCapability("disableWindowAnimation",true);
@@ -34,7 +36,8 @@ public class BaseClass {
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), dc);
         Thread.sleep(5000);
-        System.out.println("App open");
+        log.info("App open");
+        Thread.sleep(5000);
     }
 
 
