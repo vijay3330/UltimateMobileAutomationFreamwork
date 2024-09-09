@@ -1,0 +1,99 @@
+2024-27-09 12:27:30.228 [main] INFO  utils.MyListener - Starting Test Execution
+2024-27-09 12:27:47.627 [main] INFO  baseClass.BaseClass - App open
+2024-27-09 12:27:54.241 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-27-09 12:27:56.799 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-27-09 12:27:57.814 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-28-09 12:28:07.159 [main] INFO  tests.createActivityTest - Login.....
+2024-28-09 12:28:16.236 [main] INFO  tests.createActivityTest - Select profile..
+2024-28-09 12:28:20.405 [main] INFO  tests.createActivityTest - Click on assignment
+2024-28-09 12:28:25.665 [main] INFO  tests.createActivityTest - Click on CreateOwn
+2024-28-09 12:28:28.516 [main] INFO  tests.createActivityTest - Click on CreateActivity
+2024-28-09 12:28:29.894 [main] INFO  tests.createActivityTest - Title entered : Playing Chess
+2024-28-09 12:28:31.216 [main] INFO  tests.createActivityTest - Description entered : Playing Chess with friends
+2024-28-09 12:28:34.118 [main] INFO  tests.createActivityTest - materialRequired : Chess
+2024-28-09 12:28:35.380 [main] INFO  tests.createActivityTest - Click On Preview
+2024-28-09 12:28:37.866 [main] INFO  tests.createActivityTest - Click On Submit
+2024-28-09 12:28:50.037 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-28-09 12:28:50.800 [main] INFO  utils.MyListener - Finishing Test Execution
+2024-40-09 12:40:57.104 [main] INFO  baseClass.BaseClass - App open
+2024-41-09 12:41:17.850 [main] INFO  tests.createActivityTest - Login.....
+2024-41-09 12:41:21.395 [main] INFO  tests.createActivityTest - Select profile..
+2024-41-09 12:41:28.737 [main] INFO  tests.createActivityTest - Click on assignment
+2024-41-09 12:41:31.867 [main] INFO  tests.createActivityTest - Click on CreateOwn
+2024-44-09 12:44:45.527 [main] INFO  baseClass.BaseClass - App open
+2024-52-09 12:52:23.706 [main] INFO  utils.MyListener - Starting Test Execution
+2024-52-09 12:52:36.685 [main] INFO  baseClass.BaseClass - App open
+2024-52-09 12:52:43.333 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-52-09 12:52:58.185 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-52-09 12:52:59.057 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-53-09 12:53:11.585 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-53-09 12:53:14.401 [main] INFO  utils.MyListener - Finishing Test Execution
+2024-58-09 12:58:30.981 [main] INFO  utils.MyListener - Starting Test Execution
+2024-58-09 12:58:44.326 [main] INFO  baseClass.BaseClass - App open
+2024-58-09 12:58:51.915 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-00-09 13:00:40.609 [main] INFO  tests.createActivityTest - Login.....
+2024-00-09 13:00:59.192 [main] INFO  tests.createActivityTest - Select profile..
+2024-01-09 13:01:16.617 [main] INFO  tests.createActivityTest - Click on assignment
+2024-01-09 13:01:35.064 [main] INFO  tests.createActivityTest - Click on CreateOwn
+2024-02-09 13:02:33.661 [main] INFO  tests.createActivityTest - Click on CreateActivity
+2024-02-09 13:02:37.445 [main] INFO  tests.createActivityTest - Title entered : Cycling
+2024-02-09 13:02:46.062 [main] INFO  tests.createActivityTest - Description entered : Daily Cycling for 20 min
+2024-02-09 13:02:49.829 [main] INFO  tests.createActivityTest - materialRequired : Bicycle
+2024-02-09 13:02:54.638 [main] INFO  tests.createActivityTest - Click On Preview
+2024-02-09 13:02:59.138 [main] INFO  tests.createActivityTest - Click On Submit
+2024-03-09 13:03:13.792 [main] INFO  tests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-03-09 13:03:14.910 [main] INFO  tests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-03-09 13:03:16.541 [main] INFO  tests.createActivityTest - Testcase Pass.....
+2024-03-09 13:03:24.010 [main] INFO  tests.createActivityTest - Click on Close.....
+2024-03-09 13:03:33.786 [main] INFO  tests.createActivityTest - Click on Back from Create Own Page.....
+2024-03-09 13:03:46.886 [main] INFO  tests.createActivityTest - Click on Back from Myspace.....
+2024-03-09 13:03:53.880 [main] INFO  tests.createActivityTest - Click on Menu button from home.....
+2024-04-09 13:04:00.644 [main] INFO  tests.createActivityTest - Click on logout icon from home.....
+2024-04-09 13:04:06.977 [main] INFO  tests.createActivityTest - Click on logout button from home.....
+2024-04-09 13:04:23.622 [main] INFO  utils.MyListener - Test passedtestCreateActivity
+2024-04-09 13:04:23.670 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-06-09 13:06:13.993 [main] INFO  tests.createActivityTest - Login.....
+2024-06-09 13:06:34.154 [main] INFO  tests.createActivityTest - Select profile..
+2024-06-09 13:06:49.531 [main] INFO  tests.createActivityTest - Click on assignment
+2024-06-09 13:06:58.688 [main] INFO  tests.createActivityTest - Click on CreateOwn
+2024-08-09 13:08:06.181 [main] INFO  tests.createActivityTest - Click on CreateActivity
+2024-08-09 13:08:06.745 [main] INFO  tests.createActivityTest - Title entered : Playing Chess
+2024-08-09 13:08:08.971 [main] INFO  tests.createActivityTest - Description entered : Playing Chess with friends
+2024-08-09 13:08:10.880 [main] INFO  tests.createActivityTest - materialRequired : Chess
+2024-08-09 13:08:13.368 [main] INFO  tests.createActivityTest - Click On Preview
+2024-08-09 13:08:14.649 [main] INFO  tests.createActivityTest - Click On Submit
+2024-08-09 13:08:17.827 [main] INFO  tests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-08-09 13:08:17.829 [main] INFO  tests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-08-09 13:08:17.830 [main] INFO  tests.createActivityTest - Testcase Pass.....
+2024-08-09 13:08:18.455 [main] INFO  tests.createActivityTest - Click on Close.....
+2024-08-09 13:08:21.950 [main] INFO  tests.createActivityTest - Click on Back from Create Own Page.....
+2024-08-09 13:08:23.139 [main] INFO  tests.createActivityTest - Click on Back from Myspace.....
+2024-08-09 13:08:25.465 [main] INFO  tests.createActivityTest - Click on Menu button from home.....
+2024-08-09 13:08:28.078 [main] INFO  tests.createActivityTest - Click on logout icon from home.....
+2024-08-09 13:08:33.332 [main] INFO  tests.createActivityTest - Click on logout button from home.....
+2024-08-09 13:08:34.188 [main] INFO  utils.MyListener - Test passedtestCreateActivity
+2024-08-09 13:08:34.440 [main] INFO  utils.MyListener - Finishing Test Execution
+2024-20-09 13:20:32.217 [main] INFO  utils.MyListener - Starting Test Execution
+2024-20-09 13:20:43.637 [main] INFO  baseClass.BaseClass - App open
+2024-20-09 13:20:49.755 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-21-09 13:21:00.749 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-21-09 13:21:05.113 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-21-09 13:21:16.015 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-21-09 13:21:20.531 [main] INFO  utils.MyListener - Finishing Test Execution
+2024-22-09 13:22:38.488 [main] INFO  utils.MyListener - Starting Test Execution
+2024-22-09 13:22:51.854 [main] INFO  baseClass.BaseClass - App open
+2024-22-09 13:22:58.220 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-23-09 13:23:11.732 [main] INFO  tests.createActivityTest - Login.....
+2024-23-09 13:23:22.430 [main] INFO  tests.createActivityTest - Select profile..
+2024-23-09 13:23:31.219 [main] INFO  tests.createActivityTest - Click on assignment
+2024-23-09 13:23:33.736 [main] INFO  tests.createActivityTest - Click on CreateOwn
+2024-23-09 13:23:36.631 [main] INFO  tests.createActivityTest - Click on CreateActivity
+2024-23-09 13:23:37.620 [main] INFO  tests.createActivityTest - Title entered : Cycling
+2024-23-09 13:23:39.722 [main] INFO  tests.createActivityTest - Description entered : Daily Cycling for 20 min
+2024-23-09 13:23:41.370 [main] INFO  tests.createActivityTest - materialRequired : Bicycle
+2024-23-09 13:23:44.210 [main] INFO  tests.createActivityTest - Click On Preview
+2024-23-09 13:23:45.445 [main] INFO  tests.createActivityTest - Click On Submit
+2024-23-09 13:23:59.605 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-24-09 13:24:00.171 [main] INFO  utils.MyListener - Test startedtestCreateActivity
+2024-24-09 13:24:11.587 [main] INFO  utils.MyListener - Test failedtestCreateActivity
+2024-24-09 13:24:12.334 [main] INFO  utils.MyListener - Finishing Test Execution

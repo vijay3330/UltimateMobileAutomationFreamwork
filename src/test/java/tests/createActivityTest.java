@@ -1,18 +1,16 @@
 package tests;
 
 import baseClass.BaseClass;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import testCasePages.*;
 import utils.AppiumUtils;
-import utils.ReportManager;
 
 public class createActivityTest extends BaseClass {
-
-    private static final Logger log = LoggerFactory.getLogger(createActivityTest.class);
+    private static final Logger log = LogManager.getLogger(createActivityTest.class);
     LoginPage loginpage;
     ProfileSelectionPage profileSelectionPage;
     HomePage homePage;
@@ -26,8 +24,7 @@ public class createActivityTest extends BaseClass {
 
     @Test(dataProvider = "activityData")
     public void testCreateActivity(String username, String password, String activityTitle, String description, String materialRequired, String expectedMsg) throws InterruptedException {
-        ReportManager.startTest("createActivityTest testCreateActivity");
-        int currentRow = 0; // Index to keep track of the current row in the Excel sheet
+//        int currentRow = 0; // Index to keep track of the current row in the Excel sheet
         try {
         loginpage = new LoginPage(driver);
         loginpage.enterUsername(username);
@@ -82,21 +79,20 @@ public class createActivityTest extends BaseClass {
         homePage.clickOnLogoutButton();
         log.info("Click on logout button from home.....");
 
-        AppiumUtils.writeResultToExcel("CreateOwn Test Data", currentRow + 1, 6, "PASS");
+      //  AppiumUtils.writeResultToExcel("CreateOwn Test Data", currentRow + 1, 6, "PASS");
 
         } catch (Exception e) {
         // Capture screenshot on failure
-        String screenshotName = "FailedTest_testCreateActivity" + System.currentTimeMillis();
-        AppiumUtils.captureScreenshot(driver, screenshotName);
+//        String screenshotName = "FailedTest_testCreateActivity" + System.currentTimeMillis();
+//        AppiumUtils.captureScreenshot(driver, screenshotName);
 
-        // Write FAIL to Excel
-        AppiumUtils.writeResultToExcel("CreateOwn Test Data", currentRow + 1, 6, "FAIL");
+//        // Write FAIL to Excel
+//        AppiumUtils.writeResultToExcel("CreateOwn Test Data", currentRow + 1, 6, "FAIL");
 
         e.printStackTrace(); // Print the exception
         Assert.fail("Test failed due to an exception");
     }finally {
-            currentRow++; // Move to the next row for the next test iteration
-            ReportManager.flushReport();
+          //  currentRow++; // Move to the next row for the next test iteration
         }
     }
 }
