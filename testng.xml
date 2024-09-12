@@ -17,7 +17,9 @@
     <test name="Framework">
         <classes>
             <!--<class name="api.test.PetStore.TestDataTest"></class>-->
-            <class name="tests.createActivityTest"/>
+<!--            <class name="tests.createOwnTests.createActivityTest"/>-->
+            <class name="tests.achievementsTests.AddAchievementsTest"/>
+
         </classes>
 
     </test>

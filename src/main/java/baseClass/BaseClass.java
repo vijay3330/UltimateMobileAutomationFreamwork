@@ -4,7 +4,6 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -25,7 +24,7 @@ public class BaseClass {
 //        dc.setCapability("appActivity", "com.ultimate.MainActivity");
 
         DesiredCapabilities dc= new DesiredCapabilities();
-        dc.setCapability("deviceName", "Samsung SM-A346E");
+        dc.setCapability("deviceName", "OnePlus CPH2401");
         dc.setCapability("platformName", "Android");
         dc.setCapability("automationName", "UiAutomator2");
         dc.setCapability("disableWindowAnimation",true);
@@ -39,7 +38,6 @@ public class BaseClass {
         log.info("App open");
         Thread.sleep(5000);
     }
-
 
     @AfterTest
     public void tearDown()
