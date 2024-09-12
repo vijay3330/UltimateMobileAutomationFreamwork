@@ -39,7 +39,6 @@ public class BaseClass {
         Thread.sleep(5000);
     }
 
-
     @AfterTest
     public void tearDown()
     {

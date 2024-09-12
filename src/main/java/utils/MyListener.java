@@ -43,5 +43,4 @@ public class MyListener implements ITestListener {
     public void onTestSuccess(ITestResult result) {
         log.info("Test passed"+ result.getName());
     }
-
 }
