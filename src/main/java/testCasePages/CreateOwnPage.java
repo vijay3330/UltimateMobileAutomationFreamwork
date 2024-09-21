@@ -78,7 +78,7 @@ public class CreateOwnPage {
         editButton.click();
     }
 
-    @FindBy(xpath = "//android.view.ViewGroup[@resource-id='createOwn-activityFormSubmitButton']")
+    @FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"Submit\"]")
     public WebElement submitButton;
 
     public void clickOnSubmit()
@@ -138,10 +138,158 @@ public class CreateOwnPage {
     @FindBy(id = "toastText1")
     public WebElement activityAlreadyCreatedErrorMsg;
 
-    public String getActivityAlreadyCreatedErrorMsg()
+    public String toastMsg()
     {
         AppiumUtils.waitForElementToBeVisible(driver,By.id("toastText1"),10);
         return activityAlreadyCreatedErrorMsg.getText();
+    }
+
+
+    @FindBy(xpath = "//android.view.ViewGroup[@resource-id=\"createOwn-activityOccurance-ONCE\"]/android.widget.RadioButton/android.view.ViewGroup")
+    public WebElement onceRadioBtn;
+
+    public void clickOnOnceRadioBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,onceRadioBtn,10);
+        onceRadioBtn.click();
+        log.info("Click on Once.....");
+    }
+
+    @FindBy(xpath = "//android.view.ViewGroup[@resource-id=\"createOwn-activityOccurance-EVERY_DAY\"]/android.widget.RadioButton/android.view.ViewGroup")
+    public WebElement EveryDayRadioBtn;
+
+    public void clickOnEveryDayRadioBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,EveryDayRadioBtn,10);
+        EveryDayRadioBtn.click();
+        log.info("Click on Every Day.....");
+    }
+
+    @FindBy(xpath = "//android.view.ViewGroup[@resource-id=\"createOwn-activityOccurance-EVERY_WEEK\"]/android.widget.RadioButton/android.view.ViewGroup")
+    public WebElement EveryWeekRadioBtn;
+
+    public void clickOnEveryWeekRadioBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,EveryWeekRadioBtn,10);
+        EveryWeekRadioBtn.click();
+        log.info("Click on Every Week.....");
+    }
+
+    @FindBy(xpath = "//android.view.ViewGroup[@resource-id=\"createOwn-activityOccurance-EVERY_MONTH\"]")
+    public WebElement EveryMonthRadioBtn;
+
+    public void clickOnEveryMonthRadioBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,EveryMonthRadioBtn,10);
+        EveryMonthRadioBtn.click();
+        log.info("Click on Every Month.....");
+    }
+
+
+    @FindBy(xpath = "//android.widget.EditText[@resource-id=\"createOwn-activityTimeRequired\"]")
+    public WebElement timeRequiredTextbox;
+
+    public void enterTimeRequired(String time)
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.EditText[@resource-id=\"createOwn-activityTimeRequired\"]"),10);
+        timeRequiredTextbox.sendKeys(time);
+        log.info("Entered Time Required : "+time);
+    }
+
+    @FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"Assign\"]")
+    public WebElement assignBtn;
+
+    public void clickOnAssignBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,assignBtn,10);
+        assignBtn.click();
+        log.info("Click on assign button .....");
+    }
+
+    @FindBy(xpath = "//android.widget.EditText[@resource-id=\"createOwn-activityEndAfterDaysInput\"]")
+    public WebElement endAfterDayTextbox;
+
+    public void enterEndAfterDay(String day)
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.EditText[@resource-id=\"createOwn-activityEndAfterDaysInput\"]"),10);
+        timeRequiredTextbox.sendKeys(day);
+        log.info("Entered End After : "+day);
+    }
+
+    @FindBy(xpath = "//android.widget.TextView[@text=\"YAY! IT'S ASSIGNED\"]")
+    public WebElement activityAssignedSuccessMsg;
+
+    public String getActivityAssignedSuccessMsg()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@text=\"YAY! IT'S ASSIGNED\"]"),10);
+        return activityAssignedSuccessMsg.getText();
+    }
+
+
+    @FindBy(xpath = "(//android.widget.TextView[@text='Start Date']/following-sibling::android.view.ViewGroup/android.widget.TextView)[1]")
+    public WebElement activityStartDate;
+
+    public String getActivityStartDate()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("(//android.widget.TextView[@text='Start Date']/following-sibling::android.view.ViewGroup/android.widget.TextView)[1]"),10);
+        return activityStartDate.getText();
+    }
+
+
+    @FindBy(xpath = "//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterDate\"]")
+    public WebElement onceActivityEndDate;
+
+    public String getOnceActivityEndDate()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterDate\"]"),10);
+        return onceActivityEndDate.getText();
+    }
+
+    @FindBy(xpath = "//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterDaysDate\"]")
+    public WebElement everyDayActivityEndDate;
+
+    public String getEveryDayActivityEndDate()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterDaysDate\"]"),10);
+        return everyDayActivityEndDate.getText();
+    }
+
+    @FindBy(xpath = "//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterWeeksDate\"]")
+    public WebElement everyWeekActivityEndDate;
+
+    public String getEveryWeekActivityEndDate()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterWeeksDate\"]"),10);
+        return everyWeekActivityEndDate.getText();
+    }
+
+    @FindBy(xpath = "//android.widget.TextView[@resource-id=\"createOwn-assignActivityEndDateAfterMonths\"]")
+    public WebElement everyMonthActivityEndDate;
+
+    public String getEveryMonthActivityEndDate()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@resource-id=\"createOwn-activityEndAfterWeeksDate\"]"),10);
+        return everyMonthActivityEndDate.getText();
+    }
+
+    @FindBy(xpath = "(//android.view.ViewGroup)[15]")
+    public WebElement datePicker;
+
+    public void clickOnDatePicker()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,datePicker,10);
+        datePicker.click();
+        log.info("Click on date picker....");
+    }
+
+    @FindBy(xpath = "//android.widget.EditText[@resource-id=\"createOwn-activityCompleteByOfMonthInput\"]")
+    public WebElement activityCompletedByTextbox;
+
+    public void enterActivityCompletedByTextbox(String day)
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.EditText[@resource-id=\"createOwn-activityCompleteByOfMonthInput\"]"),10);
+        activityCompletedByTextbox.sendKeys(day);
+        log.info("Completed By Day : "+day);
     }
 
 }

@@ -779,3 +779,330 @@
 2024-41-12 15:41:05.747 [main] INFO  testCasePages.HomePage - Click on Menu button from home.....
 2024-41-12 15:41:12.853 [main] INFO  testCasePages.HomePage - Click on logout icon from home.....
 2024-41-12 15:41:13.911 [main] INFO  testCasePages.HomePage - Click on logout button from home.....
+2024-35-14 16:35:23.258 [main] INFO  baseClass.BaseClass - App open
+2024-35-14 16:35:35.044 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-35-14 16:35:36.644 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-35-14 16:35:51.487 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-35-14 16:35:55.487 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-36-14 16:36:03.199 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-36-14 16:36:05.786 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-36-14 16:36:07.840 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-36-14 16:36:11.716 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-36-14 16:36:13.353 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-36-14 16:36:15.685 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-36-14 16:36:18.803 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-36-14 16:36:18.804 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-36-14 16:36:18.807 [main] INFO  tests.createOwnTests.createActivityTest - Testcase Pass.....
+2024-36-14 16:36:20.286 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-36-14 16:36:27.875 [main] INFO  testCasePages.CreateOwnPage - Click on Back from Create Own Page.....
+2024-36-14 16:36:32.067 [main] INFO  testCasePages.HomePage - Click on Menu button from home.....
+2024-36-14 16:36:37.117 [main] INFO  testCasePages.HomePage - Click on logout icon from home.....
+2024-36-14 16:36:39.458 [main] INFO  testCasePages.HomePage - Click on logout button from home.....
+2024-17-15 17:17:31.062 [main] INFO  baseClass.BaseClass - App open
+2024-17-15 17:17:42.063 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-17-15 17:17:43.652 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-17-15 17:17:53.378 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-17-15 17:17:58.935 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-18-15 17:18:01.638 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-18-15 17:18:03.216 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-18-15 17:18:05.849 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-18-15 17:18:07.185 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-18-15 17:18:09.088 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-18-15 17:18:10.393 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-18-15 17:18:12.871 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-18-15 17:18:12.872 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-18-15 17:18:12.876 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-18-15 17:18:13.596 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-18-15 17:18:33.513 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-24-15 17:24:22.513 [main] INFO  baseClass.BaseClass - App open
+2024-24-15 17:24:34.396 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-24-15 17:24:36.287 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-24-15 17:24:54.598 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-25-15 17:25:01.983 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-25-15 17:25:03.723 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-25-15 17:25:07.207 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-25-15 17:25:10.522 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-25-15 17:25:12.239 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-25-15 17:25:15.171 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-25-15 17:25:16.297 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-25-15 17:25:18.497 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-25-15 17:25:18.497 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-25-15 17:25:18.501 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-25-15 17:25:19.150 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-25-15 17:25:36.683 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-33-15 17:33:29.387 [main] INFO  baseClass.BaseClass - App open
+2024-33-15 17:33:40.081 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-33-15 17:33:42.190 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-33-15 17:33:52.918 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-34-15 17:34:02.649 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-34-15 17:34:04.523 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-34-15 17:34:07.777 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-34-15 17:34:09.485 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-34-15 17:34:14.102 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-34-15 17:34:16.288 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-34-15 17:34:18.145 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-34-15 17:34:20.318 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-34-15 17:34:20.319 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-34-15 17:34:20.323 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-34-15 17:34:21.037 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-35-15 17:35:17.754 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-39-15 17:39:44.877 [main] INFO  baseClass.BaseClass - App open
+2024-39-15 17:39:56.265 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-39-15 17:39:58.081 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-40-15 17:40:13.450 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-40-15 17:40:21.151 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-40-15 17:40:22.828 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-40-15 17:40:24.287 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-40-15 17:40:26.175 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-40-15 17:40:30.129 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-40-15 17:40:33.212 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-40-15 17:40:36.540 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-40-15 17:40:38.557 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-40-15 17:40:38.558 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-40-15 17:40:38.563 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-40-15 17:40:39.398 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-41-15 17:41:06.785 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-45-15 17:45:26.245 [main] INFO  baseClass.BaseClass - App open
+2024-45-15 17:45:37.483 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-45-15 17:45:39.307 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-45-15 17:45:51.612 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-45-15 17:45:57.019 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-45-15 17:45:58.653 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-46-15 17:46:00.330 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-46-15 17:46:02.902 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-46-15 17:46:05.080 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-46-15 17:46:07.097 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-46-15 17:46:13.775 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-46-15 17:46:14.886 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-46-15 17:46:14.887 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-46-15 17:46:14.891 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-46-15 17:46:15.696 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-46-15 17:46:47.590 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-46-15 17:46:50.535 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-46-15 17:46:53.122 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-47-15 17:47:07.280 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-47-15 17:47:27.785 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-47-15 17:47:48.544 [main] INFO  testCasePages.CreateOwnPage - Click on assign button .....
+2024-48-15 17:48:06.144 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : YAY! IT'S ASSIGNED
+2024-48-15 17:48:07.327 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : YAY! IT'S ASSIGNED
+2024-48-15 17:48:09.589 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-48-15 17:48:11.692 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-51-15 17:51:46.530 [main] INFO  baseClass.BaseClass - App open
+2024-51-15 17:51:56.821 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-51-15 17:51:58.266 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-52-15 17:52:10.224 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-52-15 17:52:15.936 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-52-15 17:52:19.881 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-52-15 17:52:20.990 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-52-15 17:52:22.804 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-52-15 17:52:24.432 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-52-15 17:52:28.384 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-52-15 17:52:29.753 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-52-15 17:52:32.198 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-52-15 17:52:32.198 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-52-15 17:52:32.204 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-52-15 17:52:33.262 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-52-15 17:52:52.715 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-52-15 17:52:54.104 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-52-15 17:52:57.005 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-53-15 17:53:02.900 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-53-15 17:53:04.460 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-53-15 17:53:09.451 [main] INFO  testCasePages.CreateOwnPage - Click on assign button .....
+2024-53-15 17:53:16.506 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : YAY! IT'S ASSIGNED
+2024-53-15 17:53:16.506 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : YAY! IT'S ASSIGNED
+2024-53-15 17:53:16.506 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-53-15 17:53:17.306 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-56-15 17:56:23.272 [main] INFO  baseClass.BaseClass - App open
+2024-56-15 17:56:34.100 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-56-15 17:56:35.643 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-56-15 17:56:54.156 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-56-15 17:56:59.497 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-57-15 17:57:01.564 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-57-15 17:57:05.687 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-57-15 17:57:07.010 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-57-15 17:57:09.190 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-57-15 17:57:11.942 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-57-15 17:57:13.238 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-57-15 17:57:17.554 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-57-15 17:57:17.554 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-57-15 17:57:17.558 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-57-15 17:57:18.482 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-57-15 17:57:34.736 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-57-15 17:57:37.948 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-57-15 17:57:39.802 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-57-15 17:57:45.819 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-57-15 17:57:46.637 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-57-15 17:57:50.376 [main] INFO  testCasePages.CreateOwnPage - Click on assign button .....
+2024-57-15 17:57:57.426 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : YAY! IT'S ASSIGNED
+2024-57-15 17:57:57.427 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : YAY! IT'S ASSIGNED
+2024-57-15 17:57:57.428 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-57-15 17:57:58.147 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-04-15 18:04:14.339 [main] INFO  baseClass.BaseClass - App open
+2024-04-15 18:04:25.233 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-04-15 18:04:26.922 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-04-15 18:04:38.708 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-04-15 18:04:44.416 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-04-15 18:04:46.714 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-04-15 18:04:49.700 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-04-15 18:04:51.883 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-04-15 18:04:55.349 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-04-15 18:04:57.507 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-04-15 18:04:58.784 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-05-15 18:05:00.592 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-05-15 18:05:00.592 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-05-15 18:05:00.599 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-05-15 18:05:02.623 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-05-15 18:05:23.342 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-05-15 18:05:24.761 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-05-15 18:05:27.798 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-05-15 18:05:35.372 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-05-15 18:05:36.674 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-05-15 18:05:43.540 [main] INFO  testCasePages.CreateOwnPage - Click on assign button .....
+2024-05-15 18:05:50.853 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : YAY! IT'S ASSIGNED
+2024-05-15 18:05:50.854 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : YAY! IT'S ASSIGNED
+2024-05-15 18:05:50.854 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-05-15 18:05:51.680 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-06-15 18:06:22.686 [main] INFO  testCasePages.HomePage - Click on My Activities
+2024-06-15 18:06:44.972 [main] INFO  tests.createOwnTests.createActivityTest - Actual Start Date : 15 Sept
+2024-06-15 18:06:44.973 [main] INFO  tests.createOwnTests.createActivityTest - Expected Start Date : 15 Sep
+2024-18-15 18:18:15.623 [main] INFO  baseClass.BaseClass - App open
+2024-18-15 18:18:26.374 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-18-15 18:18:28.944 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-18-15 18:18:38.425 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-18-15 18:18:46.572 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-18-15 18:18:48.062 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-18-15 18:18:53.948 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-18-15 18:18:56.492 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-18-15 18:18:57.911 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-19-15 18:19:01.559 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-19-15 18:19:02.618 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-19-15 18:19:06.112 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-19-15 18:19:06.113 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-19-15 18:19:06.117 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-19-15 18:19:09.156 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-19-15 18:19:29.167 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-19-15 18:19:30.712 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-19-15 18:19:33.928 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-19-15 18:19:41.281 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-19-15 18:19:42.326 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-22-15 18:22:57.714 [main] INFO  baseClass.BaseClass - App open
+2024-23-15 18:23:09.276 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-23-15 18:23:10.983 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-23-15 18:23:21.034 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-23-15 18:23:26.587 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-23-15 18:23:28.406 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-23-15 18:23:30.013 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-23-15 18:23:34.845 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-23-15 18:23:37.412 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-23-15 18:23:39.548 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-23-15 18:23:42.530 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-23-15 18:23:46.246 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-23-15 18:23:46.246 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-23-15 18:23:46.250 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-23-15 18:23:47.154 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-24-15 18:24:10.578 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-24-15 18:24:14.160 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-24-15 18:24:18.232 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-24-15 18:24:26.253 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-24-15 18:24:27.694 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-54-15 18:54:51.085 [main] INFO  baseClass.BaseClass - App open
+2024-55-15 18:55:02.670 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-55-15 18:55:04.226 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-55-15 18:55:22.643 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-55-15 18:55:26.853 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-55-15 18:55:28.073 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-55-15 18:55:33.318 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-55-15 18:55:35.009 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-55-15 18:55:36.280 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-55-15 18:55:38.763 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-55-15 18:55:40.034 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-57-15 18:57:28.939 [main] INFO  baseClass.BaseClass - App open
+2024-57-15 18:57:40.202 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-57-15 18:57:42.438 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-57-15 18:57:54.785 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-58-15 18:58:00.705 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-58-15 18:58:02.389 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-58-15 18:58:03.563 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-58-15 18:58:07.630 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-58-15 18:58:08.834 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-58-15 18:58:11.247 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-58-15 18:58:12.370 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-00-15 19:00:20.464 [main] INFO  baseClass.BaseClass - App open
+2024-00-15 19:00:31.604 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-00-15 19:00:33.126 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-00-15 19:00:44.221 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-00-15 19:00:52.137 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-00-15 19:00:53.550 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-00-15 19:00:55.153 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-00-15 19:00:56.974 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-01-15 19:01:00.089 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-01-15 19:01:03.582 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-01-15 19:01:05.470 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-01-15 19:01:07.581 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-01-15 19:01:07.581 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-01-15 19:01:07.585 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-01-15 19:01:08.421 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-01-15 19:01:28.129 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-01-15 19:01:30.698 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-01-15 19:01:32.579 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-01-15 19:01:39.485 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-01-15 19:01:40.739 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-01-15 19:01:45.071 [main] INFO  testCasePages.CreateOwnPage - Click on assign button .....
+2024-01-15 19:01:50.747 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : YAY! IT'S ASSIGNED
+2024-01-15 19:01:50.748 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : YAY! IT'S ASSIGNED
+2024-01-15 19:01:50.748 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-01-15 19:01:51.411 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-02-15 19:02:12.242 [main] INFO  testCasePages.HomePage - Click on My Activities
+2024-02-15 19:02:36.197 [main] INFO  tests.createOwnTests.createActivityTest - Actual Start Date : 15 Sept
+2024-02-15 19:02:36.198 [main] INFO  tests.createOwnTests.createActivityTest - Expected Start Date : 15 Sept
+2024-02-15 19:02:36.198 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-02-15 19:02:36.198 [main] INFO  tests.createOwnTests.createActivityTest - Actual End Date : 15 Sept
+2024-02-15 19:02:36.198 [main] INFO  tests.createOwnTests.createActivityTest - Expected End Date : 15/09/2024
+2024-15-16 10:15:45.717 [main] INFO  baseClass.BaseClass - App open
+2024-15-16 10:15:56.877 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-15-16 10:15:59.441 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-16-16 10:16:09.387 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-16-16 10:16:16.814 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-16-16 10:16:18.316 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-16-16 10:16:19.883 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-16-16 10:16:21.702 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-16-16 10:16:23.552 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-16-16 10:16:28.301 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-16-16 10:16:29.760 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-17-16 10:17:43.102 [main] INFO  baseClass.BaseClass - App open
+2024-17-16 10:17:54.986 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-17-16 10:17:56.875 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-18-16 10:18:12.953 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-18-16 10:18:18.481 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-18-16 10:18:20.217 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-18-16 10:18:21.741 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-18-16 10:18:24.334 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-18-16 10:18:26.064 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-18-16 10:18:28.629 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-18-16 10:18:32.827 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-18-16 10:18:33.383 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-18-16 10:18:33.384 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-18-16 10:18:33.390 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-18-16 10:18:34.647 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-18-16 10:18:52.348 [main] INFO  testCasePages.CreateOwnPage - Click on Once.....
+2024-18-16 10:18:56.530 [main] INFO  testCasePages.CreateOwnPage - Entered Time Required : 30
+2024-18-16 10:18:58.406 [main] INFO  testCasePages.CreateOwnPage - Click on date picker....
+2024-19-16 10:19:04.813 [main] INFO  tests.createOwnTests.createActivityTest - Select Date : 15
+2024-19-16 10:19:06.263 [main] INFO  tests.createOwnTests.createActivityTest - Start Date : 15/09/2024
+2024-19-16 10:19:10.210 [main] INFO  testCasePages.CreateOwnPage - Click on assign button .....
+2024-19-16 10:19:16.773 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : YAY! IT'S ASSIGNED
+2024-19-16 10:19:16.774 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : YAY! IT'S ASSIGNED
+2024-19-16 10:19:16.774 [main] INFO  tests.createOwnTests.createActivityTest - Assertion Pass.....
+2024-19-16 10:19:18.157 [main] INFO  testCasePages.CreateOwnPage - Click on Close.....
+2024-19-16 10:19:37.807 [main] INFO  testCasePages.HomePage - Click on My Activities
+2024-42-16 12:42:17.468 [main] INFO  baseClass.BaseClass - App open
+2024-42-16 12:42:29.902 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-42-16 12:42:32.154 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-42-16 12:42:42.326 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-42-16 12:42:51.510 [main] INFO  testCasePages.HomePage - Click on CreateOwn
+2024-42-16 12:42:53.898 [main] INFO  testCasePages.CreateOwnPage - Click on CreateActivity
+2024-42-16 12:42:56.840 [main] INFO  testCasePages.CreateOwnPage - Title entered : Cycling
+2024-42-16 12:42:58.630 [main] INFO  testCasePages.CreateOwnPage - Description entered : Daily Cycling for 20 min
+2024-42-16 12:42:59.745 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
+2024-43-16 12:43:02.389 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
+2024-43-16 12:43:03.581 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
