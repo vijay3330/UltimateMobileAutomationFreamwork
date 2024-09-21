@@ -102,4 +102,9 @@ static AndroidDriver driver;
         driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"" + text + "\"));"));
     }
 
+    public static String extractNumber(String input) {
+        // Using regular expression to extract all digits from the string
+        return input.replaceAll("\\D+", ""); // \\D+ means replace all non-digit characters
+    }
+
 }

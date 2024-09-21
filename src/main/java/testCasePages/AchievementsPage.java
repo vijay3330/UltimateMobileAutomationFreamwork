@@ -184,4 +184,5 @@ public class AchievementsPage {
         closeButton.click();
         log.info("Click on close Button");
     }
+
 }
