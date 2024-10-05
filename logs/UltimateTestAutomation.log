@@ -1106,3 +1106,27 @@
 2024-42-16 12:42:59.745 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
 2024-43-16 12:43:02.389 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
 2024-43-16 12:43:03.581 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-59-30 18:59:42.736 [main] INFO  baseClass.BaseClass - App open
+2024-04-30 19:04:06.736 [main] INFO  baseClass.BaseClass - App open
+2024-06-30 19:06:19.256 [main] INFO  baseClass.BaseClass - App open
+2024-07-30 19:07:40.911 [main] INFO  baseClass.BaseClass - App open
+2024-04-01 10:04:32.719 [main] INFO  baseClass.BaseClass - App open
+2024-12-01 10:12:48.166 [main] INFO  baseClass.BaseClass - App open
+2024-14-01 10:14:49.218 [main] INFO  baseClass.BaseClass - App open
+2024-21-01 10:21:47.513 [main] INFO  baseClass.BaseClass - App open
+2024-22-01 10:22:02.200 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-22-01 10:22:03.730 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-28-01 10:28:50.557 [main] INFO  baseClass.BaseClass - App open
+2024-37-01 10:37:07.970 [main] INFO  baseClass.BaseClass - App open
+2024-38-01 10:38:00.545 [main] INFO  baseClass.BaseClass - App open
+2024-38-01 10:38:49.614 [main] INFO  baseClass.BaseClass - App open
+2024-45-01 10:45:47.519 [main] INFO  baseClass.BaseClass - App open
+2024-10-01 12:10:36.012 [main] INFO  baseClass.BaseClass - App open
+2024-16-01 12:16:47.152 [main] INFO  baseClass.BaseClass - App open
+2024-16-01 12:16:57.784 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-17-01 12:17:00.001 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-19-01 12:19:41.958 [main] INFO  baseClass.BaseClass - App open
+2024-19-01 12:19:54.903 [main] INFO  testCasePages.HomePage - Click On Reading
+2024-20-01 12:20:07.875 [main] INFO  tests.ReadingPointsTests.AddReadingPointsByParent - Enter reading : What do you read today?
+2024-20-01 12:20:13.742 [main] INFO  tests.ReadingPointsTests.AddReadingPointsByParent - Select Date : 30
+2024-20-01 12:20:16.487 [main] INFO  testCasePages.ReadingPointsPage - Enter mins : 20
