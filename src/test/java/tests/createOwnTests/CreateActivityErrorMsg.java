@@ -34,7 +34,7 @@ public class CreateActivityErrorMsg extends BaseClass {
         profileSelectionPage.clickOnParentProfile();
 
         homePage = new HomePage(driver);
-        homePage.clickOnCreateOwn();
+        homePage.clickOnCreateTask();
 
         createOwnPage = new CreateOwnPage(driver);
         createOwnPage.clickOnCreateActivity();

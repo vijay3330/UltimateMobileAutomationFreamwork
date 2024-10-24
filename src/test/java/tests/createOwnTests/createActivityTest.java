@@ -28,7 +28,7 @@ public class createActivityTest extends BaseClass {
 
     @Test(dataProvider = "activityData")
     public void testCreateActivity(String username, String password, String activityTitle, String description, String materialRequired, String expectedActivityCreatedMsg, String activityType
-    , String timeRequired, String date, String completeWithin, String endAfterDays, String expectedAssignedActivityMsg, String points, String statusOfActivity, String expectedToastMsg) throws InterruptedException {
+            , String timeRequired, String date, String completeWithin, String endAfterDays, String expectedAssignedActivityMsg, String points, String statusOfActivity, String expectedToastMsg) throws InterruptedException {
 
         loginpage= new LoginPage(driver);
         loginpage.enterUsername(username);
@@ -41,7 +41,7 @@ public class createActivityTest extends BaseClass {
         profileSelectionPage.clickOnParentProfile();
 
         homePage = new HomePage(driver);
-        homePage.clickOnCreateOwn();
+        homePage.clickOnCreateTask();
 
         createOwnPage = new CreateOwnPage(driver);
         createOwnPage.clickOnCreateActivity();
@@ -198,7 +198,7 @@ public class createActivityTest extends BaseClass {
 
         if(startFormatDate.contains("Sep"))
         {
-          String startdate = startFormatDate+"t";
+            String startdate = startFormatDate+"t";
             log.info("Actual Start Date : " + bothDates[0]);
             log.info("Expected Start Date : " + startdate);
             Assert.assertEquals(bothDates[0], startdate);
@@ -211,21 +211,21 @@ public class createActivityTest extends BaseClass {
             Assert.assertEquals(bothDates[0], startFormatDate);
             log.info("Assertion Pass.....");
         }
-       if (endFormatDate.contains("Sep"))
-       {
-           String enddate = endFormatDate + "t";
-           log.info("Actual End Date : " + bothDates[1]);
-           log.info("Expected End Date : " + enddate);
-           Assert.assertEquals(bothDates[1], enddate);
-           log.info("Assertion Pass.....");
-       }
-       else
-       {
-           log.info("Actual End Date : " + bothDates[1]);
-           log.info("Expected End Date : " + endFormatDate);
-           Assert.assertEquals(bothDates[1], endFormatDate);
-           log.info("Assertion Pass.....");
-       }
+        if (endFormatDate.contains("Sep"))
+        {
+            String enddate = endFormatDate + "t";
+            log.info("Actual End Date : " + bothDates[1]);
+            log.info("Expected End Date : " + enddate);
+            Assert.assertEquals(bothDates[1], enddate);
+            log.info("Assertion Pass.....");
+        }
+        else
+        {
+            log.info("Actual End Date : " + bothDates[1]);
+            log.info("Expected End Date : " + endFormatDate);
+            Assert.assertEquals(bothDates[1], endFormatDate);
+            log.info("Assertion Pass.....");
+        }
 
         String timeInMin = myActivitiesPage.getActivityTimeInMin();
         String extractTime = AppiumUtils.extractNumber(timeInMin);
@@ -264,7 +264,7 @@ public class createActivityTest extends BaseClass {
         Assert.assertEquals(actualActivityDeleteMsg, statusOfActivity);
 
 
-        homePage.clickOnCreateOwn();
+        homePage.clickOnCreateTask();
         createOwnPage.clickOnCreateActivity();
         Thread.sleep(5000);
         driver.findElement(By.xpath("//android.widget.TextView[@text='Cycling']/following-sibling::android.view.ViewGroup[1]")).click();

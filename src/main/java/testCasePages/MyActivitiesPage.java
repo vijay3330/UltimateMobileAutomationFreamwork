@@ -75,4 +75,22 @@ public class MyActivitiesPage {
         log.info("Click on MAC button .....");
     }
 
+    @FindBy(xpath = "(//android.view.ViewGroup[@index='0'])[7]")
+    public WebElement backBtn;
+
+    public void clickOnBackBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,backBtn,10);
+        backBtn.click();
+        log.info("Click on Back button .....");
+    }
+
+    @FindBy(xpath = "//android.widget.TextView[@text=\"My Activities\"]")
+    public WebElement myActivitiesScreen;
+
+    public String getMyActivitiesScreen()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@text=\"My Activities\"]"),10);
+        return myActivitiesScreen.getText();
+    }
 }
