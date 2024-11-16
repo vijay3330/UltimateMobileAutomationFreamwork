@@ -22,11 +22,11 @@ public class LoginPage
     }
 
     //android.widget.EditText[@text='Enter Email Address or Number']
-    @FindBy(xpath = "//android.widget.EditText[@text=\"Email or Number\"]")
+    @FindBy(xpath = "//android.widget.EditText[@resource-id=\"login-emailContactInput\"]")
     public WebElement username;
 
     public void enterUsername(String uname) throws InterruptedException {
-        AppiumUtils.waitForElementToBeVisible(driver, By.xpath("//android.widget.EditText[@text=\"Email or Number\"]"),10);
+        AppiumUtils.waitForElementToBeVisible(driver, By.xpath("//android.widget.EditText[@resource-id=\"login-emailContactInput\"]"),10);
         username.clear();
         Thread.sleep(2000);
         username.sendKeys(uname);

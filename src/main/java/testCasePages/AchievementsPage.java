@@ -176,13 +176,32 @@ public class AchievementsPage {
         log.info("Click on Reset");
     }
 
-    @FindBy(xpath = "//android.widget.TextView[@text=\"Close\"]s")
+    @FindBy(xpath = "//android.widget.TextView[@text=\"Close\"]")
     public WebElement closeButton;
 
     public void clickOnCloseButton(){
         AppiumUtils.waitForElementToBeClickable(driver,closeButton,10);
         closeButton.click();
         log.info("Click on close Button");
+    }
+
+    @FindBy(xpath = "(//android.view.ViewGroup[@index='0'])[7]")
+    public WebElement backBtn;
+
+    public void clickOnBackBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,backBtn,10);
+        backBtn.click();
+        log.info("Click on Back button .....");
+    }
+
+    @FindBy(xpath = "//android.widget.TextView[@text=\"Achievements\"]")
+    public WebElement achievementsScreen;
+
+    public String getAchievementsScreen()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver, By.xpath("//android.widget.TextView[@text=\"Achievements\"]"),10);
+        return achievementsScreen.getText();
     }
 
 }

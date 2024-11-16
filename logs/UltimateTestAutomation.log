@@ -3,23 +3,23 @@
 2024-27-09 12:27:54.241 [main] INFO  utils.MyListener - Test startedtestCreateActivity
 2024-27-09 12:27:56.799 [main] INFO  utils.MyListener - Test failedtestCreateActivity
 2024-27-09 12:27:57.814 [main] INFO  utils.MyListener - Test startedtestCreateActivity
-2024-28-09 12:28:07.159 [main] INFO  tests.createOwnTests.createActivityTest - Login.....
-2024-28-09 12:28:16.236 [main] INFO  tests.createOwnTests.createActivityTest - Select profile..
-2024-28-09 12:28:20.405 [main] INFO  tests.createOwnTests.createActivityTest - Click on assignment
-2024-28-09 12:28:25.665 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateOwn
-2024-28-09 12:28:28.516 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateActivity
-2024-28-09 12:28:29.894 [main] INFO  tests.createOwnTests.createActivityTest - Title entered : Playing Chess
-2024-28-09 12:28:31.216 [main] INFO  tests.createOwnTests.createActivityTest - Description entered : Playing Chess with friends
-2024-28-09 12:28:34.118 [main] INFO  tests.createOwnTests.createActivityTest - materialRequired : Chess
-2024-28-09 12:28:35.380 [main] INFO  tests.createOwnTests.createActivityTest - Click On Preview
-2024-28-09 12:28:37.866 [main] INFO  tests.createOwnTests.createActivityTest - Click On Submit
+2024-28-09 12:28:07.159 [main] INFO  tests.createTaskTests.createActivityTest - Login.....
+2024-28-09 12:28:16.236 [main] INFO  tests.createTaskTests.createActivityTest - Select profile..
+2024-28-09 12:28:20.405 [main] INFO  tests.createTaskTests.createActivityTest - Click on assignment
+2024-28-09 12:28:25.665 [main] INFO  tests.createTaskTests.createActivityTest - Click on createTask
+2024-28-09 12:28:28.516 [main] INFO  tests.createTaskTests.createActivityTest - Click on CreateActivity
+2024-28-09 12:28:29.894 [main] INFO  tests.createTaskTests.createActivityTest - Title entered : Playing Chess
+2024-28-09 12:28:31.216 [main] INFO  tests.createTaskTests.createActivityTest - Description entered : Playing Chess with friends
+2024-28-09 12:28:34.118 [main] INFO  tests.createTaskTests.createActivityTest - materialRequired : Chess
+2024-28-09 12:28:35.380 [main] INFO  tests.createTaskTests.createActivityTest - Click On Preview
+2024-28-09 12:28:37.866 [main] INFO  tests.createTaskTests.createActivityTest - Click On Submit
 2024-28-09 12:28:50.037 [main] INFO  utils.MyListener - Test failedtestCreateActivity
 2024-28-09 12:28:50.800 [main] INFO  utils.MyListener - Finishing Test Execution
 2024-40-09 12:40:57.104 [main] INFO  baseClass.BaseClass - App open
-2024-41-09 12:41:17.850 [main] INFO  tests.createOwnTests.createActivityTest - Login.....
-2024-41-09 12:41:21.395 [main] INFO  tests.createOwnTests.createActivityTest - Select profile..
-2024-41-09 12:41:28.737 [main] INFO  tests.createOwnTests.createActivityTest - Click on assignment
-2024-41-09 12:41:31.867 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateOwn
+2024-41-09 12:41:17.850 [main] INFO  tests.createTaskTests.createActivityTest - Login.....
+2024-41-09 12:41:21.395 [main] INFO  tests.createTaskTests.createActivityTest - Select profile..
+2024-41-09 12:41:28.737 [main] INFO  tests.createTaskTests.createActivityTest - Click on assignment
+2024-41-09 12:41:31.867 [main] INFO  tests.createTaskTests.createActivityTest - Click on createTask
 2024-44-09 12:44:45.527 [main] INFO  baseClass.BaseClass - App open
 2024-52-09 12:52:23.706 [main] INFO  utils.MyListener - Starting Test Execution
 2024-52-09 12:52:36.685 [main] INFO  baseClass.BaseClass - App open
@@ -31,31 +31,31 @@
 2024-58-09 12:58:30.981 [main] INFO  utils.MyListener - Starting Test Execution
 2024-58-09 12:58:44.326 [main] INFO  baseClass.BaseClass - App open
 2024-58-09 12:58:51.915 [main] INFO  utils.MyListener - Test startedtestCreateActivity
-2024-00-09 13:00:40.609 [main] INFO  tests.createOwnTests.createActivityTest - Login.....
-2024-00-09 13:00:59.192 [main] INFO  tests.createOwnTests.createActivityTest - Select profile..
-2024-01-09 13:01:16.617 [main] INFO  tests.createOwnTests.createActivityTest - Click on assignment
-2024-01-09 13:01:35.064 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateOwn
-2024-02-09 13:02:33.661 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateActivity
-2024-02-09 13:02:37.445 [main] INFO  tests.createOwnTests.createActivityTest - Title entered : Cycling
-2024-02-09 13:02:46.062 [main] INFO  tests.createOwnTests.createActivityTest - Description entered : Daily Cycling for 20 min
-2024-02-09 13:02:49.829 [main] INFO  tests.createOwnTests.createActivityTest - materialRequired : Bicycle
-2024-02-09 13:02:54.638 [main] INFO  tests.createOwnTests.createActivityTest - Click On Preview
-2024-02-09 13:02:59.138 [main] INFO  tests.createOwnTests.createActivityTest - Click On Submit
-2024-03-09 13:03:13.792 [main] INFO  tests.createOwnTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
-2024-03-09 13:03:14.910 [main] INFO  tests.createOwnTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
-2024-03-09 13:03:16.541 [main] INFO  tests.createOwnTests.createActivityTest - Testcase Pass.....
-2024-03-09 13:03:24.010 [main] INFO  tests.createOwnTests.createActivityTest - Click on Close.....
-2024-03-09 13:03:33.786 [main] INFO  tests.createOwnTests.createActivityTest - Click on Back from Create Own Page.....
-2024-03-09 13:03:46.886 [main] INFO  tests.createOwnTests.createActivityTest - Click on Back from Myspace.....
-2024-03-09 13:03:53.880 [main] INFO  tests.createOwnTests.createActivityTest - Click on Menu button from home.....
-2024-04-09 13:04:00.644 [main] INFO  tests.createOwnTests.createActivityTest - Click on logout icon from home.....
-2024-04-09 13:04:06.977 [main] INFO  tests.createOwnTests.createActivityTest - Click on logout button from home.....
+2024-00-09 13:00:40.609 [main] INFO  tests.createTaskTests.createActivityTest - Login.....
+2024-00-09 13:00:59.192 [main] INFO  tests.createTaskTests.createActivityTest - Select profile..
+2024-01-09 13:01:16.617 [main] INFO  tests.createTaskTests.createActivityTest - Click on assignment
+2024-01-09 13:01:35.064 [main] INFO  tests.createTaskTests.createActivityTest - Click on createTask
+2024-02-09 13:02:33.661 [main] INFO  tests.createTaskTests.createActivityTest - Click on CreateActivity
+2024-02-09 13:02:37.445 [main] INFO  tests.createTaskTests.createActivityTest - Title entered : Cycling
+2024-02-09 13:02:46.062 [main] INFO  tests.createTaskTests.createActivityTest - Description entered : Daily Cycling for 20 min
+2024-02-09 13:02:49.829 [main] INFO  tests.createTaskTests.createActivityTest - materialRequired : Bicycle
+2024-02-09 13:02:54.638 [main] INFO  tests.createTaskTests.createActivityTest - Click On Preview
+2024-02-09 13:02:59.138 [main] INFO  tests.createTaskTests.createActivityTest - Click On Submit
+2024-03-09 13:03:13.792 [main] INFO  tests.createTaskTests.createActivityTest - Actual Message : ACTIVITY CREATED SUCCESSFULLY
+2024-03-09 13:03:14.910 [main] INFO  tests.createTaskTests.createActivityTest - Expected Message : ACTIVITY CREATED SUCCESSFULLY
+2024-03-09 13:03:16.541 [main] INFO  tests.createTaskTests.createActivityTest - Testcase Pass.....
+2024-03-09 13:03:24.010 [main] INFO  tests.createTaskTests.createActivityTest - Click on Close.....
+2024-03-09 13:03:33.786 [main] INFO  tests.createTaskTests.createActivityTest - Click on Back from Create Own Page.....
+2024-03-09 13:03:46.886 [main] INFO  tests.createTaskTests.createActivityTest - Click on Back from Myspace.....
+2024-03-09 13:03:53.880 [main] INFO  tests.createTaskTests.createActivityTest - Click on Menu button from home.....
+2024-04-09 13:04:00.644 [main] INFO  tests.createTaskTests.createActivityTest - Click on logout icon from home.....
+2024-04-09 13:04:06.977 [main] INFO  tests.createTaskTests.createActivityTest - Click on logout button from home.....
 2024-04-09 13:04:23.622 [main] INFO  utils.MyListener - Test passedtestCreateActivity
 2024-04-09 13:04:23.670 [main] INFO  utils.MyListener - Test startedtestCreateActivity
-2024-06-09 13:06:13.993 [main] INFO  tests.createOwnTests.createActivityTest - Login.....
-2024-06-09 13:06:34.154 [main] INFO  tests.createOwnTests.createActivityTest - Select profile..
-2024-06-09 13:06:49.531 [main] INFO  tests.createOwnTests.createActivityTest - Click on assignment
-2024-06-09 13:06:58.688 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateOwn
+2024-06-09 13:06:13.993 [main] INFO  tests.createTaskTests.createActivityTest - Login.....
+2024-06-09 13:06:34.154 [main] INFO  tests.createTaskTests.createActivityTest - Select profile..
+2024-06-09 13:06:49.531 [main] INFO  tests.createTaskTests.createActivityTest - Click on assignment
+2024-06-09 13:06:58.688 [main] INFO  tests.createTaskTests.createActivityTest - Click on CreateOwn
 2024-08-09 13:08:06.181 [main] INFO  tests.createOwnTests.createActivityTest - Click on CreateActivity
 2024-08-09 13:08:06.745 [main] INFO  tests.createOwnTests.createActivityTest - Title entered : Playing Chess
 2024-08-09 13:08:08.971 [main] INFO  tests.createOwnTests.createActivityTest - Description entered : Playing Chess with friends
@@ -1106,3 +1106,93 @@
 2024-42-16 12:42:59.745 [main] INFO  testCasePages.CreateOwnPage - materialRequired : Bicycle
 2024-43-16 12:43:02.389 [main] INFO  testCasePages.CreateOwnPage - Click On Preview
 2024-43-16 12:43:03.581 [main] INFO  testCasePages.CreateOwnPage - Click On Submit
+2024-59-30 18:59:42.736 [main] INFO  baseClass.BaseClass - App open
+2024-04-30 19:04:06.736 [main] INFO  baseClass.BaseClass - App open
+2024-06-30 19:06:19.256 [main] INFO  baseClass.BaseClass - App open
+2024-07-30 19:07:40.911 [main] INFO  baseClass.BaseClass - App open
+2024-04-01 10:04:32.719 [main] INFO  baseClass.BaseClass - App open
+2024-12-01 10:12:48.166 [main] INFO  baseClass.BaseClass - App open
+2024-14-01 10:14:49.218 [main] INFO  baseClass.BaseClass - App open
+2024-21-01 10:21:47.513 [main] INFO  baseClass.BaseClass - App open
+2024-22-01 10:22:02.200 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-22-01 10:22:03.730 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-28-01 10:28:50.557 [main] INFO  baseClass.BaseClass - App open
+2024-37-01 10:37:07.970 [main] INFO  baseClass.BaseClass - App open
+2024-38-01 10:38:00.545 [main] INFO  baseClass.BaseClass - App open
+2024-38-01 10:38:49.614 [main] INFO  baseClass.BaseClass - App open
+2024-45-01 10:45:47.519 [main] INFO  baseClass.BaseClass - App open
+2024-10-01 12:10:36.012 [main] INFO  baseClass.BaseClass - App open
+2024-16-01 12:16:47.152 [main] INFO  baseClass.BaseClass - App open
+2024-16-01 12:16:57.784 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-17-01 12:17:00.001 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-19-01 12:19:41.958 [main] INFO  baseClass.BaseClass - App open
+2024-19-01 12:19:54.903 [main] INFO  testCasePages.HomePage - Click On Reading
+2024-20-01 12:20:07.875 [main] INFO  tests.ReadingPointsTests.AddReadingPointsByParent - Enter reading : What do you read today?
+2024-20-01 12:20:13.742 [main] INFO  tests.ReadingPointsTests.AddReadingPointsByParent - Select Date : 30
+2024-20-01 12:20:16.487 [main] INFO  testCasePages.ReadingPointsPage - Enter mins : 20
+2024-37-10 16:37:26.852 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:4968/
+2024-48-10 16:48:24.292 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:10850/
+2024-48-10 16:48:36.373 [main] INFO  baseClass.BaseClass - App open
+2024-48-10 16:48:54.635 [main] INFO  baseClass.BaseClass - Driver closed.
+2024-48-10 16:48:54.710 [main] INFO  baseClass.BaseClass - Appium server stopped.
+2024-54-10 16:54:05.356 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:37252/
+2024-54-10 16:54:17.542 [main] INFO  baseClass.BaseClass - App open
+2024-54-10 16:54:28.585 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-54-10 16:54:30.651 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-54-10 16:54:44.648 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-54-10 16:54:44.649 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Home
+2024-54-10 16:54:45.160 [main] INFO  baseClass.BaseClass - Driver closed.
+2024-54-10 16:54:45.222 [main] INFO  baseClass.BaseClass - Appium server stopped.
+2024-59-10 16:59:55.022 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:38281/
+2024-00-10 17:00:06.882 [main] INFO  baseClass.BaseClass - App open
+2024-00-10 17:00:25.661 [main] INFO  baseClass.BaseClass - Driver closed.
+2024-00-10 17:00:25.796 [main] INFO  baseClass.BaseClass - Appium server stopped.
+2024-04-10 17:04:11.816 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:2234/
+2024-04-10 17:04:23.636 [main] INFO  baseClass.BaseClass - App open
+2024-04-10 17:04:35.198 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-04-10 17:04:37.885 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-04-10 17:04:53.421 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-04-10 17:04:53.422 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Home
+2024-05-10 17:05:33.509 [main] INFO  baseClass.BaseClass - Driver closed.
+2024-05-10 17:05:33.579 [main] INFO  baseClass.BaseClass - Appium server stopped.
+2024-11-10 17:11:53.253 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:14094/
+2024-12-10 17:12:06.921 [main] INFO  baseClass.BaseClass - App open
+2024-12-10 17:12:17.913 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-12-10 17:12:19.716 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-12-10 17:12:36.171 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-12-10 17:12:36.171 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Home
+2024-14-10 17:14:30.279 [main] INFO  tests.smokeTests.LoginByParent - Actual Screen Name : Home
+2024-14-10 17:14:31.052 [main] INFO  tests.smokeTests.LoginByParent - Expected Screen Name : Home
+2024-14-10 17:14:42.239 [main] INFO  testCasePages.HomePage - Click on Menu button from home.....
+2024-15-10 17:15:01.083 [main] INFO  tests.smokeTests.LoginByParent - Actual User Name : Satish Kshirsagar 
+2024-15-10 17:15:02.126 [main] INFO  tests.smokeTests.LoginByParent - Expected User Name : Satish Kshirsagar 
+2024-15-10 17:15:20.196 [main] INFO  testCasePages.HomePage - Click On virtueWeek
+2024-15-10 17:15:33.053 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: My Activities
+2024-15-10 17:15:41.105 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: My Stories
+2024-15-10 17:15:41.107 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Virtue Week
+2024-15-10 17:15:41.108 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Achievements
+2024-15-10 17:15:41.110 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Enter Reading Minutes
+2024-15-10 17:15:41.110 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Create Own
+2024-15-10 17:15:41.111 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Ultimate Rewards
+2024-15-10 17:15:41.112 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: My Approval
+2024-15-10 17:15:41.114 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Book List
+2024-15-10 17:15:41.114 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Child Assessment
+2024-15-10 17:15:41.116 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Calendar
+2024-15-10 17:15:41.442 [main] INFO  baseClass.BaseClass - Driver closed.
+2024-15-10 17:15:41.510 [main] INFO  baseClass.BaseClass - Appium server stopped.
+2024-27-10 18:27:07.112 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:26770/
+2024-27-10 18:27:19.459 [main] INFO  baseClass.BaseClass - App open
+2024-27-10 18:27:30.362 [main] INFO  testCasePages.LoginPage - Enter Username : satish.kshirsagar@gmail.com
+2024-27-10 18:27:32.361 [main] INFO  testCasePages.LoginPage - Click On Continue 
+2024-27-10 18:27:46.710 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2024-27-10 18:27:46.711 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Home
+2024-27-10 18:27:50.058 [main] INFO  tests.smokeTests.LoginByParent - Actual Screen Name : Home
+2024-27-10 18:27:50.059 [main] INFO  tests.smokeTests.LoginByParent - Expected Screen Name : Home
+2024-27-10 18:27:58.182 [main] INFO  testCasePages.HomePage - Click on Menu button from home.....
+2024-28-10 18:28:07.148 [main] INFO  tests.smokeTests.LoginByParent - Actual User Name : Satish Kshirsagar 
+2024-28-10 18:28:07.149 [main] INFO  tests.smokeTests.LoginByParent - Expected User Name : Satish Kshirsagar 
+2024-28-10 18:28:15.664 [main] INFO  testCasePages.HomePage - Click On virtueWeek
+2024-28-10 18:28:15.665 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: My Activities
+2024-28-10 18:28:20.057 [main] INFO  testCasePages.HomePage - Click on My Activities
+2024-28-10 18:28:20.377 [main] INFO  baseClass.BaseClass - Driver closed.
+2024-28-10 18:28:20.445 [main] INFO  baseClass.BaseClass - Appium server stopped.
