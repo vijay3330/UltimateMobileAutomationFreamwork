@@ -99,5 +99,4 @@ public class AddAchievementsTest extends BaseClass {
 //        String text = driver.findElement(By.xpath("(//android.widget.TextView[@index='2'])[1]")).getText();
 //        log.info(text);
     }
-
     }

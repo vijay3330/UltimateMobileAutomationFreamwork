@@ -292,4 +292,24 @@ public class CreateOwnPage {
         log.info("Completed By Day : "+day);
     }
 
+    @FindBy(xpath = "//android.widget.TextView[@text=\"Create Tasks\"]")
+    public WebElement createTasksScreen;
+
+    public String getCreateTasksScreen()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver,By.xpath("//android.widget.TextView[@text=\"Create Tasks\"]"),10);
+        return createTasksScreen.getText();
+    }
+
+    @FindBy(xpath = "(//android.widget.TextView[@index='0'])[1]")
+    public WebElement backBtn;
+
+    public void clickOnBackBtn()
+    {
+        AppiumUtils.waitForElementToBeClickable(driver,backBtn,10);
+        backBtn.click();
+        log.info("Click on back button....");
+    }
+
 }
+

@@ -12,7 +12,7 @@ public class Data_Provider {
     public static String[][] getTestData(String sheetName) {
         String[][] data = null;
         try {
-            FileInputStream file = new FileInputStream("C:\\Users\\Admin\\UltimateMobileAutomationFreamwork\\src\\test\\resources\\TestData\\TestData.xlsx");
+            FileInputStream file = new FileInputStream("src/test/resources/TestData/TestData.xlsx");
             Sheet sheet = WorkbookFactory.create(file).getSheet(sheetName);
 
             int rowCount = sheet.getPhysicalNumberOfRows();

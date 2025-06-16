@@ -30,4 +30,21 @@ public class CalendarPage {
         log.info("Click On Expand Button");
     }
 
+    @FindBy(xpath = "//android.widget.TextView[@text=\"Calendar\"]")
+    public WebElement calendarScreen;
+
+    public String getcalendarScreen()
+    {
+        AppiumUtils.waitForElementToBeVisible(driver, By.xpath("//android.widget.TextView[@text=\"Calendar\"]"),10);
+        return calendarScreen.getText();
+    }
+
+    @FindBy(xpath = "(//android.widget.TextView[@index='0'])[1]")
+    public WebElement calendarBackButton;
+
+    public void clickOnCalendarBackButton(){
+        AppiumUtils.waitForElementToBeClickable(driver,calendarBackButton,10);
+        calendarBackButton.click();
+        log.info("Click On Expand Button");
+    }
 }

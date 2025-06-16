@@ -1,7 +1,12 @@
 package utils;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.PerformsTouchActions;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -23,6 +28,8 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Iterator;
 
+import static java.time.Duration.ofSeconds;
+
 public class AppiumUtils  {
     private static final Logger log = LogManager.getLogger(AppiumUtils.class);
 static AndroidDriver driver;
@@ -38,13 +45,13 @@ static AndroidDriver driver;
 
     // Method for waiting until an element is visible
     public static void waitForElementToBeVisible(AndroidDriver driver, By locator, int timeoutInSeconds) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
+        WebDriverWait wait = new WebDriverWait(driver, ofSeconds(timeoutInSeconds));
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     // Method for waiting until an element is clickable
     public static void waitForElementToBeClickable(AndroidDriver driver, WebElement element, int timeoutInSeconds) {
-        WebDriverWait wait = new WebDriverWait(driver,  Duration.ofSeconds(timeoutInSeconds));
+        WebDriverWait wait = new WebDriverWait(driver,  ofSeconds(timeoutInSeconds));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
@@ -102,9 +109,30 @@ static AndroidDriver driver;
         driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"" + text + "\"));"));
     }
 
+    //passcode
     public static String extractNumber(String input) {
         // Using regular expression to extract all digits from the string
         return input.replaceAll("\\D+", ""); // \\D+ means replace all non-digit characters
     }
 
+    public static WebElement scrollToElementInLoop(AppiumDriver driver, String xpath, int maxScrolls) {
+        int scrollCount = 0;
+        while (driver.findElements(By.xpath(xpath)).isEmpty() && scrollCount < maxScrolls) {
+            // Perform a swipe up
+            new TouchAction<>((PerformsTouchActions) driver)
+                    .press(PointOption.point(500, 1500)) // Starting point (bottom of the screen)
+                    .waitAction(WaitOptions.waitOptions(ofSeconds(3))) // Duration of swipe
+                    .moveTo(PointOption.point(500, 500)) // End point (top of the screen)
+                    .release()
+                    .perform();
+            scrollCount++;
+        }
+
+        // Check if the element is found
+        if (!driver.findElements(By.xpath(xpath)).isEmpty()) {
+            return driver.findElement(By.xpath(xpath)); // Element found
+        } else {
+            throw new RuntimeException("Element not found after " + maxScrolls + " scrolls");
+        }
+}
 }

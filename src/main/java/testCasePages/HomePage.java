@@ -154,4 +154,40 @@ public class HomePage {
         return homeScreen.getText();
     }
 
+    @FindBy(xpath = "//android.view.ViewGroup[@resource-id=\"SampleAcivities-169\"]/android.view.ViewGroup/android.widget.ImageView")
+    public WebElement discoveryLabVideo;
+
+    public void clickOnDiscoveryLabVideo(){
+        AppiumUtils.waitForElementToBeClickable(driver,discoveryLabVideo,10);
+        discoveryLabVideo.click();
+        log.info("Click on discovery lab video from home.....");
+    }
+
+    @FindBy(xpath = "(//android.widget.TextView[@index='0'])")
+    public WebElement discoveryLabVideoCloseBtn;
+
+    public void clickOnDiscoveryLabVideoCloseBtn(){
+        AppiumUtils.waitForElementToBeClickable(driver,discoveryLabVideoCloseBtn,10);
+        discoveryLabVideoCloseBtn.click();
+        log.info("Click on discovery lab close video button.....");
+    }
+
+    @FindBy(xpath = "//android.widget.ScrollView/android.view.ViewGroup/android.widget.HorizontalScrollView[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageView")
+    public WebElement knowledgeCenterBlog;
+
+    public void clickOnKnowledgeCenterBlog(){
+        AppiumUtils.waitForElementToBeClickable(driver,knowledgeCenterBlog,10);
+        knowledgeCenterBlog.click();
+        log.info("Click on knowledge center blog.....");
+    }
+
+    @FindBy(xpath = "(//android.widget.TextView[@index='0'])[1]")
+    public WebElement knowledgeCenterBackButton;
+
+    public void clickOnKnowledgeCenterBackButton(){
+        AppiumUtils.waitForElementToBeClickable(driver,knowledgeCenterBackButton,10);
+        knowledgeCenterBackButton.click();
+        log.info("Click on knowledge center back button .....");
+    }
+
 }

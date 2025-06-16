@@ -38,7 +38,7 @@ public class Reporting extends TestListenerAdapter {
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host name","localhost");
         extent.setSystemInfo("Environemnt","QA");
-        extent.setSystemInfo("user","Mayur Undegaonkar");
+        extent.setSystemInfo("user","VIJAY GHADGE");
 
         htmlReporter.config().setDocumentTitle("Ulti-Mate Test Automation"); // Tile of report
         htmlReporter.config().setReportName(" Ulti-Mate Mobile Test Automation Report"); // name of the report
@@ -54,25 +54,50 @@ public class Reporting extends TestListenerAdapter {
 
 
     @SneakyThrows
-    public void onTestFailure(ITestResult tr)
-    {
-        logger=extent.createTest(tr.getName()); // create new entry in th report
-        logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
+    public void onTestFailure(ITestResult tr) {
+        logger = extent.createTest(tr.getName()); // Create new entry in the report
+        logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED)); // Highlight test failure in red
 
-        String screenshotPath=System.getProperty("user.dir")+"\\reports\\Screenshots\\"+tr.getName()+".png";
-
-        File f = new File(screenshotPath);
-
-        if(f.exists())
-        {
-            try {
-                logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+        // Log the exception details
+        Throwable throwable = tr.getThrowable();
+        if (throwable != null) {
+            logger.log(Status.FAIL, "Test Case Failed: " + throwable.getMessage());
+            logger.log(Status.FAIL, "Stack Trace: " + throwable);
         }
 
+        // Attach screenshot if available
+        String screenshotPath = System.getProperty("user.dir") + "\\reports\\Screenshots\\" + tr.getName() + ".png";
+        File screenshotFile = new File(screenshotPath);
+
+        if (screenshotFile.exists()) {
+            try {
+                logger.fail("Screenshot is below:");
+                logger.addScreenCaptureFromPath(screenshotPath);
+            } catch (IOException e) {
+                logger.log(Status.FAIL, "Failed to attach screenshot: " + e.getMessage());
+            }
+        }
     }
+
+//    public void onTestFailure(ITestResult tr)
+//    {
+//        logger=extent.createTest(tr.getName()); // create new entry in th report
+//        logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED)); // send the passed information to the report with GREEN color highlighted
+//
+//        String screenshotPath=System.getProperty("user.dir")+"\\reports\\Screenshots\\"+tr.getName()+".png";
+//
+//        File f = new File(screenshotPath);
+//
+//        if(f.exists())
+//        {
+//            try {
+//                logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
+//        }
+//
+//    }
 
     public void onTestSkipped(ITestResult tr)
     {

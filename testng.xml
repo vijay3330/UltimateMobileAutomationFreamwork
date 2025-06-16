@@ -13,15 +13,11 @@
             <class name="api.test.Learning.APIChaining_DeleteUser"/>
         </classes>
     </test>--> <!-- Test -->
-
     <test name="Framework">
         <classes>
-            <!--<class name="api.test.PetStore.TestDataTest"></class>-->
-<!--            <class name="tests.createTaskTests.createActivityTest"/>-->
-            <class name="tests.achievementsTests.AddAchievementsTest"/>
-
+            <!--<class name="tests.createTaskTests.createActivityTest"/>-->
+            <class name="tests.smokeTests.LoginByParent"/>
+<!--            <class name="tests.achievementsTests.AddAchievementsTest"/>-->
         </classes>
-
     </test>
-
 </suite> <!-- Suite -->

@@ -20,12 +20,12 @@ public class VirtueWeekPage {
         PageFactory.initElements(new DefaultElementLocatorFactory(driver),this);
     }
 
-    @FindBy(xpath = "//android.widget.TextView[@text=\"Virtue Week\"]")
+    @FindBy(xpath = "//android.widget.TextView[@text=\"Parenting Virtue\"]")
     public WebElement virtueWeekScreen;
 
     public String getVirtueWeekScreen()
     {
-        AppiumUtils.waitForElementToBeVisible(driver, By.xpath("//android.widget.TextView[@text=\"Virtue Week\"]"),10);
+        AppiumUtils.waitForElementToBeVisible(driver, By.xpath("//android.widget.TextView[@text=\"Parenting Virtue\"]"),10);
         return virtueWeekScreen.getText();
     }
 
