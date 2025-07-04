@@ -21,7 +21,7 @@ public class ProfileSelectionPage
         PageFactory.initElements(driver,this);
     }
 
-//    @FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"Rohit\"]/android.view.ViewGroup/android.widget.ImageView")
+//   // @FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"Rohit\"]/android.view.ViewGroup/android.widget.ImageView")
       @FindBy(xpath = "//android.widget.TextView[@text=\"Guest\"]")
     public WebElement parentProfile;
 

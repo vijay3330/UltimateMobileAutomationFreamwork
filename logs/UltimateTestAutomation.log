@@ -3576,3 +3576,19 @@
 2025-47-11 16:47:13.426 [main] INFO  testCasePages.LoginPage - Click On Login 
 2025-47-11 16:47:33.254 [main] INFO  baseClass.BaseClass - Driver closed.
 2025-47-11 16:47:33.320 [main] INFO  baseClass.BaseClass - Appium server stopped.
+2025-17-01 16:17:31.808 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:4723/
+2025-52-01 16:52:09.227 [main] ERROR tests.smokeTests.LoginByParent - Driver is null. Cannot capture screenshot.
+2025-52-01 16:52:09.233 [main] WARN  baseClass.BaseClass - Driver was null during teardown.
+2025-52-01 16:52:09.233 [main] WARN  baseClass.BaseClass - Appium server was not running during teardown.
+2025-52-01 16:52:47.350 [main] INFO  baseClass.BaseClass - Appium server started at: http://0.0.0.0:4723/
+2025-52-01 16:52:59.503 [main] INFO  baseClass.BaseClass - App open
+2025-53-01 16:53:05.480 [main] INFO  baseClass.BaseClass - Click On Overview Screen Skip button
+2025-53-01 16:53:10.625 [main] INFO  baseClass.BaseClass - Click On Dummy Home Page
+2025-53-01 16:53:18.692 [main] INFO  testCasePages.RegistrationPage - Click On Login Btn
+2025-53-01 16:53:24.860 [main] INFO  testCasePages.LoginPage - Enter Username : 9784587997
+2025-53-01 16:53:26.210 [main] INFO  testCasePages.LoginPage - Click On Login 
+2025-53-01 16:53:37.501 [main] INFO  testCasePages.ProfileSelectionPage - select profile..
+2025-53-01 16:53:37.503 [main] INFO  tests.smokeTests.LoginByParent - Current Screen Name: Home
+2025-53-01 16:53:49.181 [main] INFO  tests.smokeTests.LoginByParent - Screenshot captured for: testUserLogin
+2025-53-01 16:53:49.327 [main] INFO  baseClass.BaseClass - Driver closed.
+2025-53-01 16:53:49.396 [main] INFO  baseClass.BaseClass - Appium server stopped.

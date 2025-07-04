@@ -218,16 +218,28 @@ public class LoginByParent extends BaseClass {
 //        }
 //    }
 
-    @AfterMethod
+//    @AfterMethod
+//    public void captureScreenshotOnFailure(ITestResult result) {
+//        if (ITestResult.FAILURE == result.getStatus()) {
+//            String methodName = result.getMethod().getMethodName();
+//            if (driver != null) {
+//                AppiumUtils.captureScreenshot(driver, "Failure_" + methodName);
+//            } else {
+//                log.error("Driver is null. Unable to capture screenshot for: " + methodName);
+//            }
+//        }
+//    }
+
+    @AfterMethod(alwaysRun = true)
     public void captureScreenshotOnFailure(ITestResult result) {
-        if (ITestResult.FAILURE == result.getStatus()) {
-            String methodName = result.getMethod().getMethodName();
-            if (driver != null) {
-                AppiumUtils.captureScreenshot(driver, "Failure_" + methodName);
-            } else {
-                log.error("Driver is null. Unable to capture screenshot for: " + methodName);
-            }
+        String methodName = result.getMethod().getMethodName();
+        if (driver != null) {
+            AppiumUtils.captureScreenshot(driver, result.getStatus() + "_" + methodName);
+            log.info("Screenshot captured for: " + methodName);
+        } else {
+            log.error("Driver is null. Cannot capture screenshot.");
         }
     }
+
 
 }

@@ -118,7 +118,24 @@ public class BaseClass {
 //        }
 //    }
 
-    @AfterTest
+//    @AfterTest
+//    public void tearDown() {
+//        if (driver != null) {
+//            driver.quit();
+//            log.info("Driver closed.");
+//        } else {
+//            log.warn("Driver was null during teardown.");
+//        }
+//
+//        if (appiumService != null && appiumService.isRunning()) {
+//            appiumService.stop();
+//            log.info("Appium server stopped.");
+//        } else {
+//            log.warn("Appium server was not running during teardown.");
+//        }
+//    }
+
+    @AfterTest(alwaysRun = true)
     public void tearDown() {
         if (driver != null) {
             driver.quit();
@@ -134,5 +151,4 @@ public class BaseClass {
             log.warn("Appium server was not running during teardown.");
         }
     }
-
 }
